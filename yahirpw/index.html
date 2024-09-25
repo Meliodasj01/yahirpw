@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="estilos.css">
+    <meta
+      name="description"
+      content="Bienvenido a mi sitio web de portafolio. Soy un desarrollador web front-end y me especializo en crear sitios web accesibles, responsivos y fáciles de usar. Explora mis proyectos, trabajo de código abierto y contáctame para cualquier consulta o colaboración."
+    />
+    <meta itemprop="name" content="Portafolio de Yahir Hernández">
+    <meta itemprop="description" content="Bienvenido a mi sitio web de portafolio. Soy un desarrollador web front-end y me especializo en crear sitios web accesibles, responsivos y fáciles de usar. Explora mis proyectos, trabajo de código abierto y contáctame para cualquier consulta o colaboración.">
+    <meta itemprop="image" content="assets/images/sharing-card.png">
+    <meta property="og:url" content="https://ossportfolio.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portafolio de Yahir Hernández">
+    <meta property="og:description" content="Bienvenido a mi sitio web de portafolio. Soy un desarrollador web front-end y me especializo en crear sitios web accesibles, responsivos y fáciles de usar. Explora mis proyectos, trabajo de código abierto y contáctame para cualquier consulta o colaboración.">
+    <meta property="og:image" content="assets/images/sharing-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portafolio de Yahir Hernández">
+    <meta name="twitter:description" content="Bienvenido a mi sitio web de portafolio. Soy un desarrollador web front-end y me especializo en crear sitios web accesibles, responsivos y fáciles de usar. Explora mis proyectos, trabajo de código abierto y contáctame para cualquier consulta o colaboración.">
+    <meta name="twitter:image" content="assets/images/sharing-card.png">
+    <link rel="shortcut icon" href="assets/images/favicons.png" type="image/png" />
+    <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Portafolio de Yahir Hernández</title>
+  </head>
+  <body>
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+    
+    <header class="header">
+      
+<!-- Menú de Navegación -->
+<nav class="nav">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="#">Inicio</a></li>
+    <li class="nav-item"><a href="#skills">Cursos egresados</a></li>
+    <li class="nav-item"><a href="#contact">Contacto</a></li>
+  </ul>
+</nav>
+
+      
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            <span>Hola, soy Yahir Hernández</span>
+            <span>Desarrollador Web Frontend</span>
+          </h1>
+          <p class="header-text">
+            Un ingeniero de software frontend y diseñador de interfaces que crea sitios web accesibles, ricos en experiencia de usuario y de alto rendimiento.
+          </p>
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Contrátame</a>
+            <!-- estaba ver mis trab -->
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- Reemplazar testimonios, nombre del autor, trabajo del autor, atributos img src y alt -->
+
+  <section>
+    <h2 class="h2" id="skills">Colegios egresados</h2>
+    <div class="container">
+      <ol class="testimonials">
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            Hoy es un día muy especial para todos nosotros, los egresados de la Escuela Angélica Castro de la Fuente. Al mirar hacia atrás, recordamos con cariño cada momento vivido en este hermoso lugar. Desde nuestras primeras clases hasta las divertidas actividades que compartimos, cada experiencia nos ha enseñado algo valioso.
+          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Rich Harris"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">ANGELICA CASTRO DE LA FUENTE</h3>
+              <p class="testimonial-author-job">Prescolar</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            A lo largo de estos años, hemos aprendido mucho. Desde nuestras primeras clases, hasta los proyectos en los que colaboramos y las amistades que forjamos, cada momento ha sido significativo. Agradecemos a nuestros maestros por su dedicación y paciencia, por guiarnos y ayudarnos a crecer. Cada lección ha sido un peldaño que nos ha llevado a donde estamos hoy.
+          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Andrew Mead"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">FAFAEL RAMIREZ </h3>
+              <p class="testimonial-author-job">Primaria</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            A nuestras familias, gracias por su amor y apoyo constante. Su confianza en nosotros ha sido fundamental en este camino, y hoy celebramos este logro junto a ustedes.
+A mis compañeros, quiero decirles que cada uno de ustedes ha sido parte importante de mi vida. Hemos compartido risas, desafíos, y momentos inolvidables. Aunque ahora tomemos rumbos diferentes, siempre recordaremos nuestra época juntos en esta escuela.
+          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Brian Hirsh"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">TECNICA 22 JUSTO SIERRA</h3>
+              <p class="testimonial-author-job">Secundaria</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            Hoy es un día lleno de emociones y significados, ya que celebramos nuestra graduación de la Preparatoria del Colegio de Estudios Científicos del Estado de Hidalgo. Este momento representa el cierre de una etapa crucial en nuestras vidas y el inicio de un nuevo capítulo lleno de oportunidades.
+           A lo largo de estos años, hemos adquirido conocimientos valiosos y habilidades que nos prepararán para los retos del futuro. Gracias a nuestros maestros por su dedicación y por habernos inspirado a pensar críticamente y a cuestionar el mundo que nos rodea. Ustedes han sido guías fundamentales en nuestro crecimiento académico y personal.
+          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Adam Argalye"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">PREPARATORIA</h3>
+              <p class="testimonial-author-job">Colegio de estudios cientificos hgo</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            Hoy nos reunimos para rendir homenaje a dos figuras que representan no solo el talento y la dedicación, sino también la pasión por lo que hacen. En primer lugar, hablemos de Cristiano Ronaldo, conocido como CR7. Su trayectoria es un testimonio del esfuerzo y la perseverancia. Desde sus inicios humildes hasta convertirse en uno de los mejores futbolistas del mundo, ha demostrado que con trabajo duro y determinación, los sueños se pueden alcanzar. Su ética de trabajo y su compromiso con el deporte son una inspiración para todos nosotros.          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Val Head"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">SI SOY </h3>
+              <p class="testimonial-author-job">Zzzz</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="testimonial">
+          <blockquote class="testimonial-text">
+            Ahora, quiero dirigir unas palabras a Yahir Hernández Bautista, nuestro querido líder de la banda de guerra. Yahir, tu liderazgo y dedicación han sido fundamentales para nuestro grupo. Has guiado a cada uno de nosotros con pasión y compromiso, enseñándonos la importancia del trabajo en equipo y la disciplina. Gracias a ti, hemos creado momentos inolvidables y hemos demostrado que, juntos, podemos alcanzar grandes logros.
+          </blockquote>
+          <figure class="testimonial-author">
+            <img
+              src="imagenes/bugles.png"
+              alt="Gary Simon"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="testimonial-author-name">Oviamente soy yo </h3>
+              <p class="testimonial-author-job">Lider soy</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ol>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h2 class="h2" id="contact">Enviar Mensaje</h2>
+      <div class="contact-content">
+        <div class="contact-textbox">
+          <!-- Comenta este componente si no estás disponible para contratar -->
+          <strong href="#" class="hire-alert">
+            <span class="indicator"></span>
+            Disponible para contratar
+          </strong>
+          <p class="contact-text">
+            Como ingeniero de software, construyo interfaces web y diseño sistemas con un especial amor por la accesibilidad y el rendimiento. Suelo codificar cosas desde cero y disfruto dar vida a las ideas.
+          </p>
+          <p class="contact-text">
+            También soy desarrollador de código abierto, y en mi tiempo libre, hago arte digital con mi iPad Pro.
+          </p>
+          <!-- Reemplaza src con tus firmas y nombre -->
+          <img
+            src="imagenes/bugles.png"
+            alt="Syed Mohsin"
+            class="signatures"
+            loading="lazy"
+          />
+        </div>
+        <form action="#" class="contact-form" netlify>
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Correo Electrónico</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              inputmode="email"
+            />
+          </div>
+          <div class="form-field">
+            <label for="message">¿Cómo puedo ayudarte?</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-cta">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Actualiza href y src -->
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="GitHub" href="https://github.com" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="imagenes/github.png"
+                  alt="GitHub"
+              /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Codepen" href="https://codepen.io" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="imagenes/codepen.png"
+                  alt="Codepen"
+              /></a>
+            </li>
+            <li class="footer-link">
+              <a title="LinkedIn" href="https://www.linkedin.com" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="imagenes/linkedin-logo.png"
+                  alt="LinkedIn"
+              /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Twitter" href="https://twitter.com" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="imagenes/twitter.png"
+                  alt="Twitter"
+              /></a>
+            </li>
+          </ol>
+        </nav>
+        <a href="https://wa.me/77117208267" target="_blank" class="whatsapp-button" id="btn-whast">
+          <i class="fa-brands fa-whatsapp"></i> Contactar
+      </a>
+      
+        <p class="footer-text">
+          &copy; <span>2024</span> - Plantilla diseñada y desarrollada por yahir hernandez bautista <a target="_blank" rel="noopener" href="https://facebook.com">Syed Mohsin.</a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Tema Oscuro</span>
+          <input type="checkbox" id="theme-switch" role="switch"/>
+        </label>
+      </div>
+    </div>
+  </footer>
+  </body>
+  </html>
